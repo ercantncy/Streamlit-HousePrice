@@ -1,7 +1,6 @@
 aiohttp==3.8.1
 aiosignal==1.2.0
 altair==4.2.0
-anaconda-client @ file:///tmp/build/80754af9/anaconda-client_1635342557008/work
 anaconda-navigator==2.1.4
 anyio @ file:///tmp/build/80754af9/anyio_1644463572971/work/dist
 appdirs==1.4.4
