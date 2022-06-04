@@ -72,13 +72,13 @@ df3 = pd.DataFrame(scaler.transform(df2),index = df2.index,columns = df2.columns
 newdata=pd.DataFrame(df3.iloc[[-1]])
 
 
-with open('/home/etuncay/Desktop/jupyternotebook/HousePrices/finalized_model.sav' , 'rb') as f:
+with open('finalized_model.sav' , 'rb') as f:
     lr = pickle.load(f)
 
 
 if st.sidebar.button('Show House Price'):
     ypred = lr.predict(newdata)
-    st.title('Seçtiğiniz evin tahmini fiyatı : ')
+    st.title('Predicted Price : ')
     st.title(ypred[0])
 
 
