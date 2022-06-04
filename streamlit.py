@@ -15,8 +15,8 @@ import scipy
 import streamlit as st 
 import pickle
 
-st.write(" # Ev Fiyat Tahmin Modeli :) #")
-df = pd.read_csv('/home/etuncay/Desktop/jupyternotebook/HousePrices/final.csv') 
+st.write(" # House Price Prediction #")
+df = pd.read_csv('final.csv') 
 liste=["HighQualSF","GarageCars","CentralAir",
 	"Exterior1st","BsmtQual","Total_Bathrooms",
 	"OverallQual","TotalBsmtSF","Total_Home_Quality"]
